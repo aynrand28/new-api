@@ -13,7 +13,7 @@ class ProductResource extends JsonResource
      * @return array
      */
     public function toArray($request)
-    {
+    { 
         return 
         [
             'name' => $this->name,
